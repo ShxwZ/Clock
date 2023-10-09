@@ -1,4 +1,4 @@
-# Clock Component with React and Vite
+# Clock Component with React and Vite 🕔
 
 This is a simple clock component built with React and Vite.
 Im using this project to learn about React and Vite.
