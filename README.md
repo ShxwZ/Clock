@@ -31,5 +31,3 @@ If you like this project, please give it a star ⭐ :)
 
 ![Preview of component](./preview_animation.webp)
 ![Preview of component](./preview.webp)
-
-![Preview of component](./preview2.webp)
