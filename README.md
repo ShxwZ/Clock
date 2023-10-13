@@ -1,4 +1,4 @@
-# <div style="display: flex; flex-direction:row; justify-content:center;place-items: center; gap:10px">Clock Component <img src='./src/assets/clock.svg' width='30'> with React <img src='./src/assets/react.svg' width='30'>, AtroposJS <img src='./src/assets/atropos.svg' width='30'> & Vite <img src='./src/assets/vite.svg' width='30'></div>
+# <div style="display: flex; flex-direction:row; justify-content:center;place-items: center; gap:10px">Clock Component with React <img src='./src/assets/react.svg' width='30'>, AtroposJS <img src='./src/assets/atropos.svg' width='30'> & Vite <img src='./src/assets/vite.svg' width='30'></div>
 
 
 
