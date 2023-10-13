@@ -6,6 +6,7 @@ Im using this project to learn about React and Vite.
 ## Features
 
 - Two styles of clock, analog with seconds with numbers and analog with seconds without numbers
+- Added Atropos to clocks
 
 ## How to run
 
