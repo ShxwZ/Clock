@@ -12,7 +12,7 @@ If you like this project, please give it a star ⭐ :)
 ## Features
 
 - ![](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg) Two styles of clock, analog with seconds with numbers and analog with seconds without numbers 
-- ![](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg) Added Atropos to clocks
+- ![](https://cdn.jsdelivr.net/gh/Readme-Workflows/Readme-Icons@main/icons/octicons/ApprovedChanges.svg) Added AtroposJS to clocks
 
 ## How to run
  
@@ -31,3 +31,5 @@ If you like this project, please give it a star ⭐ :)
 
 ![Preview of component](./preview_animation.webp)
 ![Preview of component](./preview.webp)
+
+![Preview of component](./preview2.webp)
