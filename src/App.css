@@ -1,8 +1,31 @@
-.screen {
+main{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    place-items: center;
+    justify-content: space-around;
     align-items: center;
     height: 100vh;
-    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.title{
+    text-align: center;
+    color: #8b949e;
+    margin: 30px;
+    padding: auto 10px;
+    background: rgba(14, 14, 14, 0.811);
+    border-radius: 10px;
+    width: 300px;
+}
+
+@media (width <= 1000px) {
+    main{
+        flex-direction: column;
+    }
 }

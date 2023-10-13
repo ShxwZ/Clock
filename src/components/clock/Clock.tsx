@@ -2,8 +2,10 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { getCoords } from "./utils/getCoords";
 import './Clock.css'
+import Atropos from "atropos/react";
+import 'atropos/css'
 
-const SIZE = 425; // size of the clock
+const SIZE = 440; // size of the clock
 
 function Clock({ showSeconds = false }: { showSeconds?: boolean }) {
     const [seconds, setSeconds] = useState('0deg')
@@ -19,19 +21,22 @@ function Clock({ showSeconds = false }: { showSeconds?: boolean }) {
         }, 1000); // update every second
 
         return () => clearInterval(intervalId);
-    }, [])
+    },[])
 
     return (
         <>
-            <div className='container' style={{ height: SIZE + 'px', width: SIZE + 'px' }}>
-                <div className='dot'></div>
-                <div className='stylus-seconds' style={{ rotate: seconds, height: '180px' }} />
-                <div className='stylus-minutes' style={{ rotate: minutes, height: '120px' }} />
-                <div className='stylus-hour' style={{ rotate: hour, height: '100px' }} />
-                <CircleWithNumbers></CircleWithNumbers>
-                <CircleSeconds showSeconds={showSeconds}></CircleSeconds>
-            </div>
-
+            <Atropos>
+                <div className='container' style={{ height: SIZE + 'px', width: SIZE + 'px' }}>
+                    <div className='dot'></div>
+                    <div className='stylus-seconds' style={{ rotate: seconds, height: '200px' }} />
+                    <div className='stylus-minutes' style={{ rotate: minutes, height: '160px' }} />
+                    <div className='stylus-hour' style={{ rotate: hour, height: '130px' }} />
+                
+                    <CircleWithNumbers ></CircleWithNumbers>
+                    <CircleSeconds showSeconds={showSeconds}></CircleSeconds>
+                    
+                </div>
+            </Atropos>
         </>
     )
 }

@@ -1,3 +1,8 @@
+.atropos-shadow, .atropos-inner{
+
+    border-radius: 100% ;
+}
+
 .container {
     position: relative;
     border: 12px solid white;
@@ -7,6 +12,7 @@
     border-radius: 100%;
     height: 180px;
     width: 180px;
+    background: hsla(0, 0%, 0%, 0.856);
     transform-origin: center center;
 }
 
@@ -43,8 +49,8 @@
 
 .dot {
     position: absolute;
-    width: 5px;
-    height: 5px;
+    width: 8px;
+    height: 8px;
     border-radius: 100%;
     background: red;
     z-index: 1;
@@ -72,6 +78,6 @@
 }
 
 .number-seconds {
-    font-size: 8px;
+    font-size: 10px;
     color: rgba(255, 255, 255, 0.521);
 }
