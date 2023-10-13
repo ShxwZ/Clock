@@ -9,7 +9,7 @@ Im using this project to learn about React and Vite.
 - Added Atropos to clocks
 
 ## How to run
-
+ 
 1. Clone this repository
 2. Run `npm install`
 3. Run `npm run dev`
